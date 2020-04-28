@@ -39,6 +39,11 @@ php artisan db:seed --class=MetoceanDataSeeder
 
 `php artisan serve`
 
+## Addtional Info
+
+Set folder permissions
+https://stackoverflow.com/a/45673457
+
 ## License
 
 Licensed under the [MIT license](http://opensource.org/licenses/MIT)

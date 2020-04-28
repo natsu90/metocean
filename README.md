@@ -1,9 +1,9 @@
 
-## MetOcean Data Visualisation
+# MetOcean Data Visualisation
 
-### Installation
+## Installation
 
-#### Environment Variables
+### Environment Variables
 
 `cp .env.example .env`
 
@@ -16,13 +16,13 @@ DB_FOREIGN_KEYS=true
 DB_DATABASE=/Users/sulaiman/Workspace/metocean/database/database.sqlite # your database path
 ````
 
-#### Dependencies
+### Dependencies
 
 `composer install`
 
 `npm install`
 
-#### Databases
+### Databases
 Execute following below order
 ````
 php artisan migrate --path=/database/migrations/2020_04_28_023112_create_metocean_description_table.php
@@ -31,8 +31,12 @@ php artisan migrate --path=/database/migrations/2020_04_28_023146_create_metocea
 php artisan db:seed --class=MetoceanDataSeeder
 ````
 
-### Deployment
+## Deployment
 
 `npm run prod`
 
 `php artisan serve`
+
+## License
+
+Licensed under the [MIT license](http://opensource.org/licenses/MIT)

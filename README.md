@@ -7,6 +7,8 @@
 
 `cp .env.example .env`
 
+`php artisan key:generate`
+
 `touch database/database.sqlite`
 
 update below variables to below value or accordingly
